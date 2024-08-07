@@ -1,0 +1,115 @@
+.container{
+    border: 1px solid black;
+    backdrop-filter: blur(10px);
+    width: 310px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+.button{
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    padding: 8px 135px;
+    border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.button:hover{
+    background-color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.account{
+    color:black;
+}
+p{
+    color: black;
+    text-align: center;
+}
+p::before{
+    background-color: black;
+    display: block;
+    width: 85px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    left: 14%;
+    bottom: 19.5%;
+}
+p::after{
+    background-color: black;
+    display: block;
+    width: 95px;
+    height: 1px;
+    content: "";
+    position: absolute;
+    right: 14%;
+    bottom: 19.5%;
+}
+.signup{
+    color: black;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    background-color:transparent;
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+    outline: none;
+}
+.login{
+    color: white;
+}
+.facebook{
+    background-color: rgb(64, 64, 219);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.facebook:hover{
+    background-color: rgb(64, 64, 219);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.google{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.google:hover{
+    background-color: red;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.twitter{
+    background-color: rgb(4, 154, 246);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 8px 30px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.twitter:hover{
+    background-color: rgb(4, 154, 246);
+    transform: scale(1.1);
+    cursor: pointer;
+}
+body{
+    width: 99%;
+    height: 500px;
+    background-image: url(./Asserts/pexels-esma-atak-46104031-20323408.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
